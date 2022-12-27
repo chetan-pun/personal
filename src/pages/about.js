@@ -10,7 +10,7 @@ const About =()=>{
         <div id = "about" className='about' >
          <div>
             <h2>Hi, I am Chetan. Nice to meet you</h2>
-            <p>Started coding 2 years ago, focused on improving myself since then.  I've done multiple projects.<br/>
+            <p>Started coding since my school days, focused on improving myself since then.  I've done multiple projects.<br/>
             
              </p>
          </div>
