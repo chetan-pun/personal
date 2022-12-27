@@ -1,0 +1,86 @@
+
+:root{
+    --background-color: #1b1b1b;
+}
+
+.nav{
+    z-index: 1000;
+    margin-top: 30px;
+    position: fixed;
+    top: 0px;
+    width: 50%;
+    left: 26%;
+    transform: translate(-50%, 0);
+    color: white;
+    background-color: black;
+    border-radius:30px ;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    transition: 500ms;
+}
+.nav.active{
+    background-color: var(--background-color);
+    backdrop-filter: blur(10px);
+
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    transition: 250ms;
+}
+.link:hover{
+    color: white;
+}
+
+
+.nav_div{
+    padding: 10px;
+    
+
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+    
+}
+
+
+.say_hello{
+    background-color: black;
+    border: 0.5px solid gray;
+    border-radius:20px ;
+    color: gray;
+    padding: 0px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 250ms;
+}
+
+.say_hello:hover{
+   color: white;
+}
+
+
+
+
+
+/* Email */
+
+
+.email{
+    position: fixed;
+    top: 60px;
+    background-color: var(--background-color);
+    padding: 10px;
+    border-radius: 6px;
+    right: 0px;
+    transition: 1000ms ease-out;
+}
+
+
+.email input{
+    padding: 5px 10px;
+    width: fit-content;
+}

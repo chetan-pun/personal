@@ -1,0 +1,60 @@
+
+
+.project{
+    padding: 50px 18vw;
+    margin-top: 30vh;
+    width: fit-content;
+    color: white;
+    text-align: left;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.powerhouse{
+    width: 40vw;
+    opacity: 0.7;
+    transition: 300ms;
+}
+.powerhouse:hover{
+    opacity: 1;
+}
+.project p{
+   text-align: right;
+}
+
+.first_project,.second_project{
+    display: flex;
+    margin-bottom: 100px;
+
+
+}
+
+.project_dis{
+    background-color: #8783D8;
+    padding: 20px;
+    margin-left: -40px;
+    border-radius:8px ;
+    text-align: left;
+    z-index: 20;
+    position: relative;
+}
+
+
+
+
+.s_project{
+    background-color: #8783D8;
+    padding: 20px;
+    margin-right: -80px;
+    position: relative;
+    text-align:left;
+    z-index: 20;
+    border-radius:8px ;
+}
+
+
+.second_project{
+    text-align: center ;
+}

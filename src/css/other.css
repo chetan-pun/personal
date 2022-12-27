@@ -1,0 +1,59 @@
+.other{
+    background-color: #8783D8;
+
+}
+
+.questions{
+    text-align: left;
+    padding: 80px 0px;
+    width: 63%;
+    margin: auto;
+
+}
+
+hr{
+    border: 1px solid black;
+}
+
+
+.custom-shape-divider-top-1661826117 {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1661826117 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 91px;
+}
+
+.custom-shape-divider-top-1661826117 .shape-fill {
+    fill: #000000;
+}
+
+
+/* links */
+
+#links{
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    font-size: 25px;
+    flex-direction: column;
+}
+
+.icon{
+    color: white;
+}
+
+.github{
+    font-size: 40px;
+}

@@ -1,0 +1,94 @@
+
+
+
+*{
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+.App {
+  text-align: center;
+  background-color: black;
+  font-family: sans-serif;
+
+}
+
+
+
+.background{
+   height: 93vh;
+  width: 100%;
+  position: relative;
+
+}
+
+.intro{
+  position: absolute;
+  color: white;
+  width: 30%;
+  top: 25%;
+  left: 170px;
+  height: fit-content;
+  transform: translate(0%, 30%);
+}
+
+.intro h1{
+  padding: 10px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  font-size: 80px;
+  letter-spacing: 2px;
+  text-align: left;
+  font-weight: normal;
+
+}
+
+.press_drag{
+  color: darkgray;
+  position: absolute;
+  bottom: 10px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  padding: 15px 30px;
+  width: fit-content;
+  background-color:#1b1b1b ;
+  border-radius: 25px;
+}
+
+
+
+
+
+
+.custom-shape-divider-bottom-1661770605 {
+  
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1661770605 svg {
+  position: relative;
+  display: block;
+  width: calc(139% + 1.3px);
+  height: 166px;
+}
+
+.custom-shape-divider-bottom-1661770605 .shape-fill {
+  fill: #8783D8;
+}
+
+
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+
+  background: #8783D8;
+  transform-origin: 0%;
+}

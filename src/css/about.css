@@ -1,0 +1,50 @@
+
+
+.about{
+    font-family: sans-serif;
+    height: 52vh;
+    color: black;
+    background-color: #8783D8;
+    padding: 80px 0px;
+
+}
+
+.credentials{
+    padding: 30px;
+    position: relative;
+    width: 65%;
+    background-color: #8783D8;
+    height: fit-content;
+    border: 1px solid black;
+    border-style: dashed;
+    border-radius: 20px;
+    margin: auto;
+    z-index: 100;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.frontend{
+    
+    width: 25%;
+    height: 100%;
+    
+   
+}
+
+.frontend img{
+    width: 45%;
+    
+}
+
+#h{
+    margin-top: -20px;
+    font-weight:bold;
+    
+}
+
+h2{
+    font-size: 35px;
+}
+
